@@ -3,6 +3,6 @@ from . import views
 
 
 urlpatterns = [
-    url(r'^create/$', views.order_create, name='order_create'),
+    url(r'^create/$', views.MakeOrder.as_view(), name='MakeOrder'),
 ]
 
